@@ -1,1 +1,102 @@
 /* Your styles here */
+* {
+  width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #222f3f;
+  color: white;
+  margin-bottom: 2em;
+}
+header img {
+  padding: 0.5em 1em;
+  width: 8%;
+}
+nav ul {
+  background-color: #364759;
+  list-style-type: none;
+  padding: 0.5em 1em;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Body */
+main {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Banner */
+
+.banner {
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+  padding: 0.5em 0;
+  margin-bottom: 2em;
+}
+
+.holiday-guides p {
+  padding-top: 1.5em;
+  font-weight: 700;
+}
+
+.holiday-guides {
+  background-image: url(/assets/images/bg-image.png);
+  height: 35px;
+  color: white;
+  text-align: center;
+  padding: 5em 0;
+}
+
+.gift-grid {
+  display: inline-block;
+}
+
+.gift-grid {
+  text-align: center;
+  width: 22%;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 20%;
+}
+
+.gaming,
+.audio {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Texts */
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+  background-color: #131921;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
