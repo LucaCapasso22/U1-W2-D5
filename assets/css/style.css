@@ -16,15 +16,17 @@ header img {
 nav ul {
   background-color: #364759;
   list-style-type: none;
-  padding: 0.5em 1em;
+  padding: 0.5em 0;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 15px;
+  margin-left: 1em;
 }
 
 nav ul li a {
+  font-weight: 500;
+  font-size: 1em;
   color: white;
   text-decoration: none;
 }
@@ -36,6 +38,7 @@ main {
   margin-right: auto;
 }
 body {
+  background-color: #e9edee;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
   margin: 0;
   padding: 0;
@@ -50,9 +53,12 @@ body {
   margin-bottom: 2em;
 }
 
+/* Holiday guides */
+
 .holiday-guides p {
   padding-top: 1.5em;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .holiday-guides {
@@ -63,18 +69,43 @@ body {
   padding: 5em 0;
 }
 
-.gift-grid {
-  display: inline-block;
+/* Gift Grid */
+.gift-ideas {
+  margin: 2em 0;
+  background-color: white;
+}
+.gift-ideas h2 {
+  padding-top: 1em;
+  padding-left: 1em;
+  font-style: initial;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
 .gift-grid {
+  padding: 1em 0em;
   text-align: center;
   width: 22%;
+  padding: 1em 1em;
   margin-bottom: 20px;
   display: inline-block;
   border-radius: 20%;
 }
+.gift-grid img {
+  height: 375px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5%;
+  -webkit-box-shadow: 0px 9px 31px -6px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 9px 31px -6px rgba(0, 0, 0, 0.51);
+}
 
+.p {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
 .gaming,
 .audio {
   text-align: center;
@@ -89,9 +120,23 @@ h1 {
 
 /* Footer */
 
-footer {
-  background-color: #131921;
+.back-to-top {
+  background-color: #364759;
+  text-align: center;
+  padding: 1em 0;
+}
+.back-to-top a {
+  text-decoration: underline;
   color: white;
+}
+
+footer img {
+  padding: 3em 0;
+  width: 13%;
+}
+
+footer {
+  background-color: #222f3f;
   text-align: center;
   padding: 10px 0;
 }
@@ -99,4 +144,12 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4c959a;
+  padding-left: 0.8em;
+  font-size: 0.8em;
+  font-weight: 700;
 }
